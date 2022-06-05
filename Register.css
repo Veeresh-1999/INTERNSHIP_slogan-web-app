@@ -11,6 +11,7 @@ body{
     box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 30px;
+    width: 800px;
 }
 
 
@@ -92,5 +93,22 @@ a{
 
 ::placeholder{
     font-size: 13px;
+}
+
+input[type='radio']{
+    accent-color: #C53678;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .box{
+        margin: 40px auto;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 30px;
+        width: 100%;
+    }
+       
 }
 

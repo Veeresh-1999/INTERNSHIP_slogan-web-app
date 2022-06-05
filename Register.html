@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <metaname="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -12,87 +12,11 @@
     <script src="https://kit.fontawesome.com/2c7bfd6248.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="Register.css">
+    <script  type="text/javascript" src="Register.js"></script>
     <title>Register</title>
+
 </head>
 <body>
-<!--
-<div class="box">
-        <div class="logo">
-            <img src="./images/new-logo.png" alt="">
-        </div>
-        
-            
-        <p class="name">REGISTER</p><br>
-
-       
-
-     <div class="form"> 
-            
-            <div class="flex-container">
-                <div class="flex-item-left">
-                    <div class="firstname">
-                        <input type="text" placeholder="First name">
-                    </div>
-                </div>
-                <div class="flex-item-right">
-                    <div class="lastname">
-                        <input type="text" placeholder="Last name">
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="flex-container">
-                <div class="flex-item-left">
-                    <div class="phoneno">
-                        <input type="tel" placeholder="Phone number">
-                    </div>
-                </div>
-                <div class="flex-item-right">
-                    <div class="Email">
-                        <input type="email" class="email" pattern=".+@globex\.com" placeholder="Email">
-                    </div>
-                </div>
-            </div>  
-
-      
-            <div class="flex-container">
-                <div class="flex-item-left">
-                    <div class="password"> 
-                        <input type="password" placeholder="Password">
-                    </div>
-                </div>
-                <div class="flex-item-right">
-                    <div class="conform password"> 
-                        <input type="password" placeholder="Confirm password">
-                    </div>
-                </div>
-            </div>          
-        </div>
-
-    
-
-
-
-        <div class="checkbox">
-            <input type="checkbox"> I agree to all the <a href="">Terms</a> and <a href="">Privacy policy</a>
-        </div>
-
-
-
-        
-        <div class="button1">
-            <a href="index.html">
-                <button>SAVE</button>
-            </a>
-        </div>
-        
-        <div class="opt">
-            Already have an account? <a href="index.html">Login</a>
-        </div>
-</div>
--->
-
 <div class="box">
 
     <div class="logo">
@@ -103,18 +27,20 @@
     <form class="row g-3">
         <!--Name and Lasst name-->
         <div class="col-md-6">
-            <input type="text" class="form-control" id="inputEmail4" placeholder="First name">
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
         </div>
         <div class="col-md-6">
-            <input type="text" class="form-control" id="inputPassword4" placeholder="Last name">
+            <input type="email" class="form-control" id="inputPassword4" placeholder="Email id">
         </div>
 
         <!--Name and Lasst name-->
         <div class="col-md-6">
             <input type="tel" class="form-control" id="inputEmail4" placeholder="Phone number">
         </div>
-        <div class="col-md-6">
-            <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+        <div class="col-md-6">  
+            Gender : &nbsp; &nbsp;
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
         </div>
 
       <!--Name and Lasst name-->
@@ -122,14 +48,10 @@
             <input type="password" class="form-control" id="inputEmail4" placeholder="Password">
         </div>
         <div class="col-md-6">
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
         </div>          
 
-
-
-
-
-
+        <!--grnder and condition-->
         <div class="col-12">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">

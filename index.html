@@ -9,11 +9,12 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 
 <link rel="stylesheet" href="login.css">
 
-<title>LOG IN</title>
-    
+<title>LOG IN - USER</title>
+
 </head>
 <body>
 
@@ -29,25 +30,23 @@
         <!--Input Feild-->
         <div class="form">
             <div class="mail">
-                <input type="email" class="email" pattern=".+@globex\.com" placeholder="Email">
+                <input id="email" type="email" class="email" pattern=".+@globex\.com" placeholder="Email">
             </div>
             <div class="password"> 
-               <input type="password" placeholder="Password">
+               <input id="password" type="password" placeholder="Password">
             </div>
         </div>
 
         <!--botton-->
         <div class="button1">
-            <a href="After_login.html">
-                 <button>Log In</button>
+           <a href="After_login.html">
+                 <button id="btn-login">Log In</button>
             </a>
         </div>
         
         <div class="opt">
-            <span><a href="Forgoten Password.html">Forgoten password?</a></span> <span style="color: #C53678;">|</span> <span><a href="Register.html">New User?</a></span>
+            <span><a href="Forgoten Password.html">Forgoten password?</a></span> <span style="color: #e998be;">|</span> <span><a href="Register.html">New User?</a></span>
         </div>
     </div>
-
-
 </body>
 </html>

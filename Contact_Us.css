@@ -1,0 +1,182 @@
+/*body*/
+body{
+    background: #ffffff;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #C53678;
+    border-radius: 50px;
+}
+
+/*Header*/
+.nav{
+    display:flexbox;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.menu{
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+padding-top: 30px;
+}
+.login{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.log{
+    margin-left: 30px;
+}
+
+.login a{
+    color:#C53678;
+}
+
+.reg:hover, .log:hover{
+    padding: 9px 25px;
+    background-color: #C53678;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    width: 100px;
+}
+/*pagr*/
+
+.page{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+
+.text p{
+    font-size: 30px;
+}
+
+/*address*/
+
+.address, .mail, .call, .loc{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.firstlast, .emaipho, .help{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.firstlast input, .emaipho input, .help input{
+    font-size: 16px;
+    padding: 10px 10px 5px 25px;
+    border: 1px solid #CECECE;  
+    border-radius: 8px;
+    background: #F3F2F6;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.input1{
+    width: 84%;
+    height: 150px;
+    font-size: 10px;
+}
+
+/*Footer*/
+
+footer{
+    margin-top: 30%;
+    background-color: rgb(251, 251, 251);
+}
+
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 110px ;
+    gap: 10px;
+  }
+ .title{
+    font-family: 'Brush Script MT';
+    font-size: 50px;
+    padding-top: 75px;
+    color: #C53678;
+ }
+
+ .shoshial{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 60px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+ }
+ .s-title{
+     font-size: 18px;
+     width: 30%;
+ }
+
+ .s-media{
+     cursor: pointer;
+ }
+
+ .contact{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    justify-content:left;
+    margin-top: 30px;
+    margin-left: 110px ;
+    color: black;
+ }
+
+ .button2{
+  margin-left: 110px;
+  margin-top: 30px;
+  padding: 9px 25px;
+  background-color: #C53678;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 15px;
+  width: 150px;
+}
+
+ .s-contact{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     margin-bottom: 30px;
+ }
+
+ a{
+     color: black;
+ }
