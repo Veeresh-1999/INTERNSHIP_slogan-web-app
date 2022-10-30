@@ -1,0 +1,14 @@
+# WEB DEVELOPMENT INTERNSHIP FROM REUBRO INTERNATIONAL
+A group of 4 people worked for this Project 
+#
+# RESPONSIBLITY
+Create a webpage using the HTML, CSS, JS and Bootstrap
+#
+CREATED 10 FILES USING HTML 
+#
+CREATED 9 FILES USING CSS 
+#
+CREATED 2 FILES USING JS 
+#
+
+
